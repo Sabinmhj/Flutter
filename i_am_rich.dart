@@ -12,10 +12,9 @@ void main() {
             child: Text('I Am Rich'),
           ),
         ),
-        body: Center(
+        body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg'),
+            image: AssetImage('images/download.jfif'),
           ),
         ),
       ),
